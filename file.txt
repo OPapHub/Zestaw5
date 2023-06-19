@@ -1,0 +1,12 @@
+20 20                    
+output.txt               
+`
+Circle 10 10 5 :
+Point 8 8 #
+Point 12 8 #
+Point 10 10 }
+Line 8 12 12 12 -
+Rectangle 7 16 7 3 =
+Line 14 17 18 15 /
+Line 6 17 1 15 \
+Circle 15 2 2 "

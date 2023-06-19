@@ -1,0 +1,53 @@
+ASCII Art Generator
+
+This project is a C++ program that generates ASCII art based on a configuration file. It allows you to define various shapes such as rectangles, circles, lines, and points, and then creates an ASCII representation of these shapes on a canvas.
+
+Implemented Features:
+- Drawing rectangles with specified coordinates, width, height, and symbol
+- Drawing circles with specified center coordinates, radius, and symbol
+- Drawing lines with specified start and end points
+- Drawing points at specified coordinates
+
+How to Use:
+1. Prepare a configuration file (e.g., `file.txt`) with the following format:
+   - The first line should contain the canvas width and height (e.g., "20 10" for a 20x10 canvas)
+   - The second line should specify the output file name (e.g., "output.txt")
+   - The third line should specify the symbol for empty pixels (e.g., ".")
+
+   After that, you can define the shapes you want to draw, one shape per line, with the following format:
+   - Rectangle: "Rectangle x y width height symbol"
+   - Circle: "Circle centerX centerY radius symbol"
+   - Line: "Line x1 y1 x2 y2 symbol"
+   - Point: "Point x y"
+
+   Save the configuration file.
+
+2. Compile the program using a C++ compiler. For example, using g++:
+    g++ Main.cpp -o ascii_art
+
+3. Run the program, passing the configuration file as an argument:
+    ./ascii_art file.txt
+
+4. The program will generate the ASCII art based on the configuration file and save it to the specified output file (e.g., `output.txt`).
+
+
+How to Get the Project on Your Computer:
+1. Clone the repository or download the source code files.
+    git clone <repository_url>
+
+Alternatively, you can download the source code files manually from the repository's source.
+
+2. Open the project in your preferred C++ development environment or compile the source code using a C++ compiler.
+
+Make sure to have the necessary dependencies and libraries installed.
+
+3. Follow the instructions in the "How to Use" section to run the program and generate ASCII art.
+
+Files:
+- `Main.cpp`: The main program that reads the configuration file, creates the shapes, and generates the ASCII art.
+- `output.txt`: The output file where the ASCII art will be saved.
+- `file.txt`: An example configuration file that you can modify to define the canvas, shapes, and output settings.
+
+
+
+
